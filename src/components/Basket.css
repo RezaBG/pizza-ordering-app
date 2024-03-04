@@ -1,0 +1,44 @@
+.basket-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.basket-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.basket-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.basket-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+}
+
+.remove-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #d32f2f;
+}
+
+.total-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
